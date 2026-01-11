@@ -14,11 +14,10 @@ const DarkMode = () => {
         if (theme === "dark") {
             element.classList.add("dark");
         } else {
-            element.classList.remove("light");
             element.classList.remove("dark");
        
         }
-    });
+    }, [theme]);
   return (
     <div>
         {
