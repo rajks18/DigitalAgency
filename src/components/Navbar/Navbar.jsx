@@ -67,8 +67,6 @@ const Navbar = () => {
                         <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer text-2xl"/>
                     )
                 }
-                
-                
             </div>
           </div>
         </div>
