@@ -5,7 +5,7 @@ import { MenuLinks } from './Navbar'
 const ResponsiveMenu = ({showMenu}) => {
   return (
     <div>
-        <div className={`${showMenu ? "left-0" : "left-[-100%]"} fixed bottom-0 top-0 w-[75%] transition-all duration-300 pt-16 px-8 shadow-lg bg-white dark:bg-gray-900 z-50`}>
+        <div className={`${showMenu ? "left-0" : "left-[-100%]"} fixed bottom-0 top-0 w-[75%] transition-all duration-300 pt-16 px-8 shadow-lg bg-white dark:bg-gray-900 z-50 flex flex-col justify-between`}>
             <div className='card'>
                 {/* user section */}
                 <div className='flex justify-start items-center gap-3'>
@@ -30,14 +30,13 @@ const ResponsiveMenu = ({showMenu}) => {
                         }
                     </ul>
                 </nav>
-
-                {/* footer section */}
+            </div>
+            {/* footer section */}
                 <div>
                     <h1>
                         Made with ❤️ by <a href="https://github.com/rajks18">Rajkumar</a>
                     </h1>
                 </div>
-            </div>
         </div>
     </div>
   )
