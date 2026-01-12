@@ -4,7 +4,7 @@ import DarkMode from "./DarkMode";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 
-const MenuLinks = [
+export const MenuLinks = [
   {
     id: 1,
     name: "About",
