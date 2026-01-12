@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/website/logo.svg";
 import DarkMode from "./DarkMode";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
+import ResponsiveMenu from "./ResponsiveMenu";
 
 const MenuLinks = [
   {
@@ -21,7 +22,7 @@ const MenuLinks = [
   },
 ];
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(true);
+    const [showMenu, setShowMenu] = useState(false);
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
@@ -71,6 +72,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        <ResponsiveMenu showMenu={showMenu}/>
       </nav>
     </>
   );
