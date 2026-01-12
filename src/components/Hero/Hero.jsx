@@ -22,14 +22,13 @@ const Hero = () => {
           </div>
           {/* Text Content Section */}
           <div>
-            <h1>
-              Building Brands in the <span>Digital Agency</span>
+            <h1 className="text-4xl sm:text-5xl font-semibold">
+              Building Brands in the <span className="text-primary">Digital Agency</span>
             </h1>
             <p>
-              Your partner in navigating the ever-evolving landscape of digital marketing. From conceptualization to execution, we craft tailored solutions that drive results and elevate your brand to
-              new heights.
+              Your partner in navigating the ever-evolving landscape of digital marketing. From conceptualization to execution, we craft tailored solutions that drive results and elevate your brand to new heights.
             </p>
-            <button>Get Started</button>
+            <button className="bg-[#6153cd] text-white hover:bg-[#6153cd]/80 duration-300 rounded-lg py-2 px-4 ">Get Started</button>
           </div>
         </div>
       </div>

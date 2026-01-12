@@ -52,7 +52,7 @@ const Navbar = () => {
                     </li>
                   );
                 })}
-                <button className="bg-[#6153cd] text-white hover:bg-[#6153cd]/80 duration-300 rounded-lg py-2 px-4 ">Get in Touch</button>
+                <button className="bg-[#6153cd] text-white hover:bg-[#6153cd]/80 duration-300 rounded-lg py-2 px-4">Get in Touch</button>
                 <DarkMode/>
               </ul>
             </div>
