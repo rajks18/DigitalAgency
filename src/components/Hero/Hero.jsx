@@ -12,7 +12,7 @@ const Hero = () => {
             <img src={HeroImage} alt="Hero Image" />
             <div className="bg-white dark:bg-gray-900 px-4 py-2 rounded-xl shadow-md absolute -bottom-5 -right-8">
               <div className="flex items-center gap-1">
-                <FaStar className="text-yellow-600"/>
+                <FaStar className="text-yellow-500"/>
                 <p>Projects</p>
               </div>
               <h1 className="font-bold">
