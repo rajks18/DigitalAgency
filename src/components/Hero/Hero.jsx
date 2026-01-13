@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="order-1 sm:order-2 relative">
             <img src={HeroImage} alt="Hero Image" />
             <div className="bg-white dark:bg-gray-900 px-4 py-2 rounded-xl shadow-md absolute -bottom-5 -right-8">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
                 <FaStar className="text-yellow-500"/>
                 <p>Projects</p>
               </div>
