@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
           {/* Text Content Section */}
           <div className="space-y-5 order-2 sm:order-1 ">
-            <h1 className="text-4xl sm:text-6xl font-semibold">
+            <h1 className="text-4xl sm:text-5xl font-semibold">
               Building Brands in the <span className="text-[#6153cd]">Digital Agency</span>
             </h1>
             <p>
