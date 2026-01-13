@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container min-h-[620px] flex mt-10 sm:mt-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 place-items-center">
           {/* Image Section */}
-          <div className="order-1 sm:order-1 relative">
+          <div className="order-1 sm:order-2 relative">
             <img src={HeroImage} alt="Hero Image" />
             <div className="bg-white dark:bg-gray-900 px-4 py-2 rounded-xl shadow-md absolute -bottom-5 -right-8">
               <div className="flex items-center gap-1">
