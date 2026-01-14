@@ -16,7 +16,7 @@ const Hero = () => {
                 <p>Projects</p>
               </div>
               <h1 className="font-bold">
-                600+ <span className="font-">done</span>
+                600+ <span className="font-normal">done</span>
               </h1>
             </div>
           </div>
