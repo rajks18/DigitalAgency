@@ -18,7 +18,7 @@ const ResponsiveMenu = ({showMenu}) => {
 
                 {/* Menu Section */}
                 <nav className='mt-12'>
-                    <ul className='space-y-4 text-l'>
+                    <ul className='space-y-4 text-xl'>
                         {
                             MenuLinks.map(({ id, name, link }) => {
                                 return (
