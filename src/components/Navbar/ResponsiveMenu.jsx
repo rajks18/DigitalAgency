@@ -5,7 +5,7 @@ import { MenuLinks } from './Navbar'
 const ResponsiveMenu = ({showMenu}) => {
   return (
     <div>
-        <div className={`${showMenu ? "left-0" : "left-[-100%]"} fixed bottom-0 top-0 w-[75%] transition-all duration-300 pt-16 px-8 shadow-lg bg-white dark:bg-gray-900 z-50 flex flex-col justify-between pb-4`}>
+        <div className={`${showMenu ? "left-0" : "left-[-100%]"} fixed bottom-0 top-0 w-[77%] transition-all duration-300 pt-16 px-8 shadow-lg bg-white dark:bg-gray-900 z-50 flex flex-col justify-between pb-4`}>
             <div className='card'>
                 {/* user section */}
                 <div className='flex justify-start items-center gap-3'>
