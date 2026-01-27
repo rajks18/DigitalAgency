@@ -23,7 +23,7 @@ const ResponsiveMenu = ({showMenu}) => {
                             MenuLinks.map(({ id, name, link }) => {
                                 return (
                                     <li key = {id}>
-                                        <a href={link} className='mb-7 inline-block'>{name}</a>
+                                        <a href={link} className='mb-5 inline-block'>{name}</a>
                                     </li>
                                 )
                             })
@@ -35,7 +35,7 @@ const ResponsiveMenu = ({showMenu}) => {
             {/* footer section */}
                 <div>
                     <h1>
-                        Made with ❤️ by <a href="https://github.com/rajks18">Rajkumar</a>
+                        Made with  <a href="https://github.com/rajks18">Rajkumar</a>
                     </h1>
                 </div>
         </div>
