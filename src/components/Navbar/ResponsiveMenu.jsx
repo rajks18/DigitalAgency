@@ -23,7 +23,7 @@ const ResponsiveMenu = ({showMenu}) => {
                             MenuLinks.map(({ id, name, link }) => {
                                 return (
                                     <li key = {id}>
-                                        <a href={link} className='mb-8 inline-block'>{name}</a>
+                                        <a href={link} className='mb-9 inline-block'>{name}</a>
                                     </li>
                                 )
                             })
