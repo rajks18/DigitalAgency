@@ -58,7 +58,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile View */}
-            <div className="flex items-center gap-14 md:hidden">
+            <div className="flex items-center gap-15 md:hidden">
                 <DarkMode/>
                 {
                     showMenu ? (
