@@ -46,7 +46,7 @@ const Navbar = () => {
                 {MenuLinks.map(({ id, name, link }) => {
                   return (
                     <li key={id} className="cursor-pointer py-4 ">
-                      <a href={link} className="text-lg font-medium py-12 hover:text-[#6153cd] hover:border-b-2 hover:border-[#6153cd] transition-all duration-300">
+                      <a href={link} className="text-lg font-medium py-2 hover:text-[#6153cd] hover:border-b-2 hover:border-[#6153cd] transition-all duration-300">
                         {name}
                       </a>
                     </li>
