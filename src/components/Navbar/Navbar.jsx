@@ -42,7 +42,7 @@ const Navbar = () => {
 
             {/* Desktop NavLinks Section */}
             <div className="hidden md:block">
-              <ul className="flex gap-11 items-center ">
+              <ul className="flex gap-13 items-center ">
                 {MenuLinks.map(({ id, name, link }) => {
                   return (
                     <li key={id} className="cursor-pointer py-4 ">
