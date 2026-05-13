@@ -64,7 +64,7 @@ const Navbar = () => {
                     showMenu ? (
                         <HiMenuAlt1 onClick={toggleMenu} className="cursor-pointer text-2xl"/>
                     ) : (
-                        <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer text-3xl"/>
+                        <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer text-4xl"/>
                     )
                 }
             </div>
