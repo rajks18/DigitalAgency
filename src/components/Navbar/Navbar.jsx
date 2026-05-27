@@ -22,7 +22,7 @@ export const MenuLinks = [
   },
 ];
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(true);
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
