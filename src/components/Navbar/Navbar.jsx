@@ -34,7 +34,7 @@ const Navbar = () => {
 
             {/* Logo Section */}
             <div>
-              <a href="#" className="flex items-center gap-3">
+              <a href="#" className="flex items-center gap-5">
                 <img src={logo} alt="Logo" className="w-5" />
                 <span className="text-2xl sm:text-3xl font-semibold">Digital Agency</span>
               </a>
