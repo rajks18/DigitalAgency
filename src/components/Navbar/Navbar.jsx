@@ -35,7 +35,7 @@ const Navbar = () => {
             <div>
               <a href="#" className="flex items-center gap-3">
                 <img src={logo} alt="Logo" className="w-5" />
-                <span className="text-2xl sm:text-3xl font-bold">Digital Agency</span>
+                <span className="text-2xl sm:text-3xl font-semibold">Digital Agency</span>
               </a>
             </div>
 
