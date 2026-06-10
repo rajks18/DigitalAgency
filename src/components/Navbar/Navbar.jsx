@@ -40,7 +40,7 @@ const Navbar = () => {
             </div>
 
             {/* Desktop NavLinks Section */}
-            <div className="hidden md:block">
+            <div className="hidden sm:block">
               <ul className="flex gap-8 items-center ">
                 {MenuLinks.map(({ id, name, link }) => {
                   return (
