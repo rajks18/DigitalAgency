@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile View */}
-            <div className="flex items-center gap-4 md:hidden">
+            <div className="flex items-center gap-4 ">
               <DarkMode />
               {showMenu ? <HiMenuAlt1 onClick={toggleMenu} className="cursor-pointer text-2xl" /> : <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer text-2xl" />}
             </div>
